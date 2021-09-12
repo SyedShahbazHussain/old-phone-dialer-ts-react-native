@@ -36,9 +36,9 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
+    // <SafeAreaView style={backgroundStyle}>
       <RotaryLogin/>
-    </SafeAreaView>
+    // </SafeAreaView>
   );
 };
 
