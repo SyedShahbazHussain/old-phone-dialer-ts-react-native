@@ -17,6 +17,7 @@ import Quadrant, {
 import Gesture from "./Gesture";
 import Title from "./Title";
 import Status from "./Status";
+import ShowNumber from "./ShowNumber";
 
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 
@@ -97,6 +98,7 @@ const PhoneDialers = () => {
         <Status passcode={passcode} />
       </Svg>
       <Gesture theta={theta} passcode={passcode} />
+      <ShowNumber passcode={passcode} />
     </View>
   );
 };
