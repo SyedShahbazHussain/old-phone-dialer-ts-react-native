@@ -2,9 +2,13 @@ import React from 'react'
 import { View, Text } from 'react-native'
 
     interface StatusProps {
-        passcode: object;
+        passcode: passcodeProps;
     }
       
+    interface passcodeProps  {
+        value: string
+    }
+    
     const ShowNumber = ({ passcode }: StatusProps) => {
     return (
         <View>
